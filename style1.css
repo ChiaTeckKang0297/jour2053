@@ -30,6 +30,6 @@ body {
     cursor: pointer;
 }
 
-.forms input [type="text"]:focus, .forms input [type="number"]:focus {
-    border-color: gold;
+.forms input [type="text"]:hover {
+    background-color: darkblue;
 }
