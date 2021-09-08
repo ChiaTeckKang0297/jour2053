@@ -1,0 +1,35 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: lightskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forms {
+    background-color: navajowhite;
+    width: 400px;
+    color: black;
+    padding: 40px;
+    box-shadow: 10px 10px 25px black;
+    text-align: center;
+}
+
+.forms input {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background: none;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.forms input [type="submit"] {
+    width: 150px;
+    border: 2px solid darkblue;
+    cursor: pointer;
+}
+
+.forms input [type="text"]:focus, .forms input [type="number"]:focus {
+    border-color: gold;
+}
