@@ -42,7 +42,7 @@ body {
      font-family: 'Lato', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
-     background-color: #87850f;
+     background-color: #a3e3ee;
 }
 
 .main-layout {
@@ -619,7 +619,7 @@ button {
 /** footer **/
 
 .footer {
-     background: darkgreen;
+     background: #ffffff;
      padding-top: 85px;
      text-align: center;
 }
@@ -645,7 +645,7 @@ button {
 .copyright {
      margin-top: 90px;
      padding: 20px 0px;
-     background-color: #313130;
+     background-color: darkgreen;
 }
 
 .copyright p {
